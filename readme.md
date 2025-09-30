@@ -143,8 +143,10 @@
 
 ## 🐍 Snake!
 
-<!-- The snake will appear here once you set up the GitHub Action (see instructions below) -->
-![Snake animation dark](https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/github-contribution-grid-snake-dark.svg)
+
+
+![Snake animation](https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/github-contribution-grid-snake.svg)
+
 
 
 
