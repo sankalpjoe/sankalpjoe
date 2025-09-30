@@ -1,6 +1,6 @@
 <!-- Header with Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%20👋&animation=fadeIn&type=waving&color=gradient&height=100"/>
+  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%20🚀&animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
 </p>
 
 <!-- Social Media Icons -->
@@ -14,14 +14,14 @@
   <a href="YOUR_PORTFOLIO_URL">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="YOUR_EMAIL">
+  <a href="mailto:sankalpj17@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
-<!-- Animated GIF or Image -->
+<!-- Animated GIF -->
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding GIF"/>
+  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Quantum Computing"/>
 </p>
 
 ---
@@ -29,24 +29,38 @@
 ## 👨‍💻 About Me
 
 ```yaml
-name: Your Name
-located_in: Your City, Country
-current_job: Full Stack Developer
+name: Sankalp Joe
+located_in: India
+current_focus: Quantum Computing & Machine Learning
 education:
   [
-    "Bachelor's in Computer Science",
-    "Self-Taught Developer"
+    "Quantum Computing Researcher",
+    "AI/ML Enthusiast"
   ]
 fields_of_interests:
   [
-    "Web Development",
-    "Mobile Apps",
-    "UI/UX Design",
-    "Open Source",
-    "Machine Learning"
+    "Quantum Machine Learning",
+    "Quantum Algorithms (QAOA, QCBM)",
+    "Financial Technology (Options Pricing)",
+    "Computer Vision (GANs, CycleGAN)",
+    "Portfolio Optimization",
+    "Open Source"
   ]
-currently_learning: ["React Native", "TypeScript", "Cloud Architecture"]
-hobbies: ["Gaming", "Photography", "Reading Tech Blogs", "Contributing to Open Source"]
+currently_working_on: 
+  [
+    "Quantum Circuit Born Machines",
+    "Hybrid Quantum-Classical Models",
+    "Quantum Optimization Problems"
+  ]
+technical_background:
+  [
+    "Python",
+    "Qiskit",
+    "TensorFlow/PyTorch",
+    "Jupyter Notebooks",
+    "Quantum Algorithms"
+  ]
+fun_fact: "Bridging the gap between quantum computing and real-world applications! 🌌"
 ```
 
 ---
@@ -54,33 +68,102 @@ hobbies: ["Gaming", "Photography", "Reading Tech Blogs", "Contributing to Open S
 ## 🚀 Some Tools I Have Used and Learned
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" width="45" height="45"/>
+  <!-- Programming Languages -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="jupyter" width="45" height="45"/>
+  
+  <!-- ML/DL Frameworks -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="pytorch" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="45" height="45"/>
+  
+  <!-- Tools -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="45" height="45"/>
 </p>
+
+---
+
+## 🔬 Featured Quantum & ML Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">QCBM Options Pricing</h3>
+      <div align="center">
+        <a href="https://github.com/sankalpjoe/QCBM-Options-Pricing" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=QCBM-Options-Pricing&theme=tokyonight&hide_border=true" alt="QCBM Options Pricing"/>
+        </a>
+        <p><strong>Python, Qiskit, Finance</strong> - Pricing Options using Synthetic Data generated by Quantum Circuit Born Machines</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">High-Dimensional Portfolio Optimization</h3>
+      <div align="center">
+        <a href="https://github.com/sankalpjoe/High-Dimensional-Portfolio-Optimization-A-Quantum-Approach" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=High-Dimensional-Portfolio-Optimization-A-Quantum-Approach&theme=tokyonight&hide_border=true" alt="Portfolio Optimization"/>
+        </a>
+        <p><strong>Python, QAOA</strong> - Quantum approach to solving high-dimensional portfolio optimization problems</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">QAOA Facility Location</h3>
+      <div align="center">
+        <a href="https://github.com/sankalpjoe/Delhi-Facility-Location-Optimization-using-Quantum-QAOA" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=Delhi-Facility-Location-Optimization-using-Quantum-QAOA&theme=tokyonight&hide_border=true" alt="QAOA Delhi"/>
+        </a>
+        <p><strong>Python, QAOA</strong> - Applying Quantum Approximate Optimization Algorithm on Delhi facility location database</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">CycleGAN-Q (Hybrid Quantum)</h3>
+      <div align="center">
+        <a href="https://github.com/sankalpjoe/CYCLEGAN-Q" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=CYCLEGAN-Q&theme=tokyonight&hide_border=true" alt="CycleGAN-Q"/>
+        </a>
+        <p><strong>Python, GANs, Quantum</strong> - CycleGAN with a hybrid quantum-classical generator architecture</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Adverse Weather Generation</h3>
+      <div align="center">
+        <a href="https://github.com/sankalpjoe/Adverse-Weather-Creation-Using-CycleGAN" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=Adverse-Weather-Creation-Using-CycleGAN&theme=tokyonight&hide_border=true" alt="Weather CycleGAN"/>
+        </a>
+        <p><strong>Python, Computer Vision</strong> - Creating realistic adverse weather conditions using CycleGAN for autonomous systems</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">QCBM Indian Markets</h3>
+      <div align="center">
+        <a href="https://github.com/sankalpjoe/qcbm-indian" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=qcbm-indian&theme=tokyonight&hide_border=true" alt="QCBM Indian"/>
+        </a>
+        <p><strong>Jupyter, Finance</strong> - Quantum Circuit Born Machines using BSE indices for Indian stock market prediction</p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sankalpjoe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sankalpjoe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sankalpjoe&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -88,22 +171,44 @@ hobbies: ["Gaming", "Photography", "Reading Tech Blogs", "Contributing to Open S
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=sankalpjoe&theme=darkhub&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
 </p>
 
 ---
 
-## 🐍 Contribution Graph
+## 🐍 Watch my Contribution Graph get eaten by the Snake!
 
-![Snake animation](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/sankalpjoe/sankalpjoe/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
-## 📝 Latest Blog Posts
+## 🌟 Research Interests
 
-<!-- BLOG-POST-LIST:START -->
-- Coming Soon...
-<!-- BLOG-POST-LIST:END -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&height=80&section=header&text=Quantum%20Computing%20×%20Machine%20Learning&fontSize=25&fontAlign=50&fontAlignY=50" alt="Research Focus"/>
+</p>
+
+```python
+research_areas = {
+    "Quantum Algorithms": ["QAOA", "VQE", "QCBM", "Quantum Annealing"],
+    "Machine Learning": ["GANs", "Hybrid Models", "Generative AI", "Computer Vision"],
+    "Applications": [
+        "Financial Technology (Options Pricing, Portfolio Optimization)",
+        "Image-to-Image Translation",
+        "Optimization Problems",
+        "Synthetic Data Generation"
+    ],
+    "Tools & Frameworks": ["Qiskit", "TensorFlow", "PyTorch", "Pennylane"]
+}
+```
+
+---
+
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sankalpjoe&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+</p>
 
 ---
 
@@ -115,32 +220,31 @@ hobbies: ["Gaming", "Photography", "Reading Tech Blogs", "Contributing to Open S
 
 ---
 
-## 🔥 Featured Projects
+## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/PROJECT1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT1&theme=tokyonight&hide_border=true" alt="Project 1"/>
-  </a>
-  <a href="https://github.com/YOUR_USERNAME/PROJECT2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT2&theme=tokyonight&hide_border=true" alt="Project 2"/>
-  </a>
+  Let's collaborate on quantum computing and ML projects! Always open to discussing new ideas and research opportunities.
 </p>
 
----
-
-## 📈 Activity Graph
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:sankalpj17@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" alt="Email"/>
+  </a>
+  <a href="YOUR_TWITTER_URL">
+    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter" alt="Twitter"/>
+  </a>
 </p>
 
 ---
 
 <!-- Footer Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=40&fontAlignY=70&desc=Let's%20connect%20and%20build%20something%20amazing&descAlignY=88&descSize=15"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=Thanks%20for%20visiting!%20⚛️&fontSize=35&fontAlignY=70&desc=Let's%20build%20the%20quantum%20future%20together&descAlignY=88&descSize=14"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=sankalpjoe&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
 </p>
