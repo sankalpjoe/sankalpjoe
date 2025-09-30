@@ -1,20 +1,66 @@
-    name: Generate Snake
+name: Generate Snake
 
-    on:
-      schedule:
-        - cron: "0 0 * * *" # Runs daily at midnight UTC
-      workflow_dispatch: # Allows manual triggering
+# run daily + manual
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
-    jobs:
-      build:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v2
-          - uses: Platane/snk@v3
-            with:
-              github_user_name: ${{ github.repository_owner }}
-              outputs: |
-                dist/github-contribution-grid-snake.svg
-                dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# allow this workflow to push files
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Show Node (optional, diagnostic)
+        run: node --version || true
+
+      - name: Generate snake SVGs (fast svg-only)
+        id: snk
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List generated files (diagnostic)
+        run: |
+          echo "Dist contents:"
+          ls -la dist || true
+
+      - name: Commit & push `dist/` to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # create/update local output branch
+          git checkout -B output
+
+          # ensure dist exists
+          if [ -d dist ]; then
+            git add -A dist
+            # commit if changes
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "chore(snake): update generated contribution snake"
+            fi
+            # push (create/update remote branch)
+            git push origin output --force
+          else
+            echo "ERROR: dist directory not found — generation step likely failed"
+            exit 1
+          fi
