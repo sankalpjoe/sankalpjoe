@@ -192,15 +192,9 @@
 
 ---
 
-##  Favorite Quote
 
-<p align="center">
-  <i>" Ridin' in the drop top with the top down . Pull up to the red light, lookin' right </i>
-</p>
 
----
-
-##  Connect With Me
+## Lets Connect 
 
 <p align="center">
   Connect with me
