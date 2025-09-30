@@ -21,7 +21,7 @@
 <p align="center">
   <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Quantum Computing"/>
 </p>
----
+
 
 ##  About Me
 
@@ -149,52 +149,7 @@
 <!-- The snake will appear here once you set up the GitHub Action (see instructions below) -->
 ![Snake animation](https://github.com/sankalpjoe/sankalpjoe/blob/output/github-contribution-grid-snake.svg)
 
-<details>
-<summary>🔧 Click here for Snake Setup Instructions</summary>
 
-### How to activate the snake:
-1. Go to your `sankalpjoe` repository
-2. Click "Actions" tab → "New workflow" 
-3. Click "set up a workflow yourself"
-4. Name it `snake.yml` and paste this code:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-    - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: sankalpjoe
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-5. Commit the file
-6. Go to Actions → "Generate Snake" → "Run workflow"
-7. Wait 1 minute and refresh - the snake will appear! 🐍
-
-</details>
-
----
 
 ##  Research Interests
 
