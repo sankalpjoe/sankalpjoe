@@ -1,8 +1,7 @@
 <!-- Header with Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%20 &animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
+  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%20🚀&animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
 </p>
-
 <!-- Social Media Icons -->
 <p align="center">
   <a href="YOUR_LINKEDIN_URL">
@@ -18,15 +17,13 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
-
 <!-- Animated GIF -->
 <p align="center">
   <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Quantum Computing"/>
 </p>
-
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 - Quantum Computing Researcher & AI/ML Enthusiast
 - Working on: Quantum Circuit Born Machines, Hybrid Quantum-Classical Models
@@ -126,7 +123,7 @@
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sankalpjoe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
