@@ -143,10 +143,13 @@
 
 ## 🐍 Snake!
 
-
-
-![Snake animation](https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/github-contribution-grid-snake.svg)
-
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 
 
