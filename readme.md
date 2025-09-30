@@ -157,7 +157,7 @@
 ##  Research Interests
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&height=80&section=header&text=Quantum%20Computing%20×%20Machine%20Learning&fontSize=25&fontAlign=50&fontAlignY=50" alt="Research Focus"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&height=80&section=header&text=Quantum%20Computing%20&%20Machine%20Learning&fontSize=25&fontAlign=50&fontAlignY=50" alt="Research Focus"/>
 </p>
 
 ###  Areas of Focus
@@ -180,12 +180,11 @@
 - Optimization Problems
 - Synthetic Data Generation
 
-**Tools & Frameworks**
-- Qiskit | TensorFlow | PyTorch | Pennylane
+
 
 ---
 
-## 📈 Activity Graph
+##  Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sankalpjoe&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
@@ -193,7 +192,7 @@
 
 ---
 
-## 💭 Favorite Quote
+##  Favorite Quote
 
 <p align="center">
   <i>" Ridin' in the drop top with the top down . Pull up to the red light, lookin' right </i>
