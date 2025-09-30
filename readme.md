@@ -1,6 +1,6 @@
 <!-- Header with Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%20🚀&animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
+  <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%20 &animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
 </p>
 
 <!-- Social Media Icons -->
@@ -28,18 +28,15 @@
 
 ## 👨‍💻 About Me
 
-- 🔬 Quantum Computing Researcher & AI/ML Enthusiast
-- 📍 Based in India
-- 🎯 Current Focus: Quantum Machine Learning & Financial Technology
-- 💡 Working on: Quantum Circuit Born Machines, Hybrid Quantum-Classical Models
-- 🔭 Research Areas: QAOA, QCBM, Portfolio Optimization, Computer Vision (GANs)
-- 🛠️ Tech Stack: Python, Qiskit, TensorFlow, PyTorch, Jupyter
-- 🌟 Passionate about bridging quantum computing with real-world applications
-- 🤝 Open to collaborations on quantum algorithms and ML projects
+- Quantum Computing Researcher & AI/ML Enthusiast
+- Working on: Quantum Circuit Born Machines, Hybrid Quantum-Classical Models
+- Research Areas: QAOA, QCBM, Portfolio Optimization, Computer Vision (GANs)
+- Tech Stack: Python, Qiskit, TensorFlow, PyTorch, Jupyter
+
 
 ---
 
-## 🚀 Some Tools I Have Used and Learned
+## Tools I Use
 
 <p align="left">
   <!-- Programming Languages -->
@@ -62,7 +59,7 @@
 
 ---
 
-## 🔬 Featured Quantum & ML Projects
+##  Featured Projects
 
 <table>
   <tr>
@@ -150,7 +147,7 @@
 
 ---
 
-## 🐍 Watch my Contribution Graph get eaten by the Snake!
+## 🐍 Snake!
 
 <!-- The snake will appear here once you set up the GitHub Action (see instructions below) -->
 ![Snake animation](https://github.com/sankalpjoe/sankalpjoe/blob/output/github-contribution-grid-snake.svg)
@@ -202,13 +199,13 @@ jobs:
 
 ---
 
-## 🌟 Research Interests
+##  Research Interests
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&height=80&section=header&text=Quantum%20Computing%20×%20Machine%20Learning&fontSize=25&fontAlign=50&fontAlignY=50" alt="Research Focus"/>
 </p>
 
-### 🔬 Areas of Focus
+###  Areas of Focus
 
 **Quantum Algorithms**
 - QAOA (Quantum Approximate Optimization Algorithm)
@@ -244,15 +241,15 @@ jobs:
 ## 💭 Favorite Quote
 
 <p align="center">
-  <i>"Can't stop the feeling!" - Inspired by summer vibes and good music 🎵</i>
+  <i>" Ridin' in the drop top with the top down . Pull up to the red light, lookin' right </i>
 </p>
 
 ---
 
-## 🤝 Connect With Me
+##  Connect With Me
 
 <p align="center">
-  Let's collaborate on quantum computing and ML projects! Always open to discussing new ideas and research opportunities.
+  Connect with me
 </p>
 
 <p align="center">
@@ -271,7 +268,7 @@ jobs:
 
 <!-- Footer Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=Thanks%20for%20visiting!%20⚛️&fontSize=35&fontAlignY=70&desc=Let's%20build%20the%20quantum%20future%20together&descAlignY=88&descSize=14"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=Thanks%20for%20visiting!%20 &fontSize=35&fontAlignY=70&desc=Let's%20build%20the%20quantum%20future%20together&descAlignY=88&descSize=14"/>
 </p>
 
 <p align="center">
