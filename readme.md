@@ -1,6 +1,6 @@
 <!-- Header with Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hello%20There!%20🔫 &animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
+  <img src="https://capsule-render.vercel.app/api?text=Hello%20There!%20🔫&animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
 </p>
 <!-- Social Media Icons -->
 <p align="center">
