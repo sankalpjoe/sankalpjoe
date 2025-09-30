@@ -28,40 +28,14 @@
 
 ## 👨‍💻 About Me
 
-```yaml
-name: Sankalp Joe
-located_in: India
-current_focus: Quantum Computing & Machine Learning
-education:
-  [
-    "Quantum Computing Researcher",
-    "AI/ML Enthusiast"
-  ]
-fields_of_interests:
-  [
-    "Quantum Machine Learning",
-    "Quantum Algorithms (QAOA, QCBM)",
-    "Financial Technology (Options Pricing)",
-    "Computer Vision (GANs, CycleGAN)",
-    "Portfolio Optimization",
-    "Open Source"
-  ]
-currently_working_on: 
-  [
-    "Quantum Circuit Born Machines",
-    "Hybrid Quantum-Classical Models",
-    "Quantum Optimization Problems"
-  ]
-technical_background:
-  [
-    "Python",
-    "Qiskit",
-    "TensorFlow/PyTorch",
-    "Jupyter Notebooks",
-    "Quantum Algorithms"
-  ]
-fun_fact: "Bridging the gap between quantum computing and real-world applications! 🌌"
-```
+- 🔬 Quantum Computing Researcher & AI/ML Enthusiast
+- 📍 Based in India
+- 🎯 Current Focus: Quantum Machine Learning & Financial Technology
+- 💡 Working on: Quantum Circuit Born Machines, Hybrid Quantum-Classical Models
+- 🔭 Research Areas: QAOA, QCBM, Portfolio Optimization, Computer Vision (GANs)
+- 🛠️ Tech Stack: Python, Qiskit, TensorFlow, PyTorch, Jupyter
+- 🌟 Passionate about bridging quantum computing with real-world applications
+- 🤝 Open to collaborations on quantum algorithms and ML projects
 
 ---
 
@@ -212,10 +186,10 @@ research_areas = {
 
 ---
 
-## 💡 Random Dev Quote
+## 💭 Favorite Quote
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+  <i>"Can't stop the feeling!" - Inspired by summer vibes and good music 🎵</i>
 </p>
 
 ---
