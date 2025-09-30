@@ -19,7 +19,7 @@
 </p>
 <!-- Animated GIF -->
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OWI5YWIwODhxMTByOXJvN2VhaTBhMndwYnJvNW1rY3V4OWtuZGxiYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PlUCyruRdJvsD1c4gy/giphy.gif" width="400" alt="Quantum Computing"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OWI5YWIwODhxMTByOXJvN2VhaTBhMndwYnJvNW1rY3V4OWtuZGxiYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PlUCyruRdJvsD1c4gy/giphy.gif" width="1000" alt="Quantum Computing"/>
 </p>
 
 
