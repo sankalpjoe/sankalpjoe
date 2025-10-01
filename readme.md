@@ -216,7 +216,7 @@
 
 <!-- Footer Animation -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=Thanks%20for%20visiting!%20 &fontSize=35&fontAlignY=70&desc=Let's%20build%20the%20quantum%20future%20together&descAlignY=88&descSize=14"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=35&fontAlignY=70&desc=Let%27s%20build%20the%20quantum%20future%20together&descAlignY=88&descSize=14" alt="Thanks for visiting banner"/>
 </p>
 
 <p align="center">
