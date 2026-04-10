@@ -1,224 +1,245 @@
-<!-- Header with Animation -->
+<!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Sankalp%20Joshi%20&animation=fadeIn&type=waving&color=gradient&customColorList=0,2,2,5,30&height=120"/>
+  <img src="https://capsule-render.vercel.app/api?text=Sankalp%20Joshi&animation=fadeIn&type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&fontColor=ffffff&fontSize=42&fontAlignY=65&desc=Quantum%20Computing%20%E2%86%97%20AI%20%2F%20ML%20%E2%86%97%20Generative%20Models&descSize=16&descAlignY=85&descColor=aaaaff"/>
 </p>
-<!-- Social Media Icons -->
+
+<!-- Badges -->
 <p align="center">
   <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
+  &nbsp;
   <a href="YOUR_TWITTER_URL">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Twitter-1d9bf0?style=flat-square&logo=twitter&logoColor=white"/>
   </a>
+  &nbsp;
   <a href="YOUR_PORTFOLIO_URL">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-ff5722?style=flat-square&logo=google-chrome&logoColor=white"/>
   </a>
+  &nbsp;
   <a href="mailto:sankalpj17@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/sankalpj17@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=sankalpjoe&color=7c3aed&style=flat-square&label=Profile+Views"/>
 </p>
+
+<br/>
+
 <!-- Animated GIF -->
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OWI5YWIwODhxMTByOXJvN2VhaTBhMndwYnJvNW1rY3V4OWtuZGxiYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PlUCyruRdJvsD1c4gy/giphy.gif" width="1000" alt="Quantum Computing"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OWI5YWIwODhxMTByOXJvN2VhaTBhMndwYnJvNW1rY3V4OWtuZGxiYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PlUCyruRdJvsD1c4gy/giphy.gif" width="100%" style="border-radius: 12px;" alt="Quantum Computing"/>
 </p>
 
-
-##  About Me
-
-- Quantum Computing Researcher & AI/ML Enthusiast
-- Working on: Quantum Circuit Born Machines, Hybrid Quantum-Classical Models
-- Research Areas: QAOA, QCBM, Portfolio Optimization, Computer Vision (GANs)
-- Tech Stack: Python, Qiskit, TensorFlow, PyTorch, Jupyter
-
+<br/>
 
 ---
 
-## Tools I Use
+## `> whoami`
+
+```python
+sankalp = {
+    "role"       : "Quantum Computing Researcher & AI/ML Engineer",
+    "building"   : ["Quantum Circuit Born Machines", "Hybrid Quantum-Classical Models"],
+    "domains"    : ["QAOA", "QCBM", "Portfolio Optimization", "Generative CV"],
+    "stack"      : ["Python", "Qiskit", "TensorFlow", "PyTorch"],
+    "location"   : "India",
+    "open_to"    : "Research collaborations & cutting-edge projects"
+}
+```
+
+---
+
+## ⚡ Tech Stack
 
 <p align="left">
-  <!-- Programming Languages -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="jupyter" width="45" height="45"/>
-  
-  <!-- ML/DL Frameworks -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="pytorch" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="45" height="45"/>
-  
-  <!-- Tools -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="45" height="45"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="45" height="45"/>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,jupyter,git,github,vscode,linux,docker&theme=dark&perline=9"/>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Qiskit-6929c4?style=flat-square&logo=IBM&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5c3ee8?style=flat-square&logo=opencv&logoColor=white"/>
 </p>
 
 ---
 
-##  Featured Projects
+## 🔬 Research Interests
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
+### ⚛️ Quantum Algorithms
+- **QCBM** — Quantum Circuit Born Machines
+- **QAOA** — Quantum Approximate Optimization Algorithm
+- **VQE** — Variational Quantum Eigensolver
+- **Quantum Annealing** for combinatorial problems
+
+</td>
+<td valign="top" width="50%">
+
+### 🤖 Machine Learning
+- **GANs & CycleGAN** — Unpaired image translation
+- **Hybrid Quantum-Classical** architectures
+- **Generative AI** for synthetic data
+- **Computer Vision** for autonomous systems
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+### 💡 Applications
+`Options Pricing` &nbsp; `Portfolio Optimization` &nbsp; `Facility Location` &nbsp; `Synthetic Data Generation` &nbsp; `Adverse Weather Simulation` &nbsp; `Indian Market Modelling`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Featured Projects
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">QCBM Options Pricing</h3>
-      <div align="center">
-        <a href="https://github.com/sankalpjoe/QCBM-Options-Pricing" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=QCBM-Options-Pricing&theme=tokyonight&hide_border=true" alt="QCBM Options Pricing"/>
-        </a>
-        <p><strong>Python, Qiskit, Finance</strong> - Pricing Options using Synthetic Data generated by Quantum Circuit Born Machines</p>
-      </div>
+      <a href="https://github.com/sankalpjoe/QCBM-Options-Pricing">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=QCBM-Options-Pricing&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&border_radius=12" width="100%"/>
+      </a>
+      <br/>
+      <p>
+        <img src="https://img.shields.io/badge/Qiskit-6929c4?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Finance-22c55e?style=flat-square"/>
+      </p>
+      <p>Pricing options using synthetic financial data generated by Quantum Circuit Born Machines.</p>
     </td>
     <td width="50%">
-      <h3 align="center">High-Dimensional Portfolio Optimization</h3>
-      <div align="center">
-        <a href="https://github.com/sankalpjoe/High-Dimensional-Portfolio-Optimization-A-Quantum-Approach" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=High-Dimensional-Portfolio-Optimization-A-Quantum-Approach&theme=tokyonight&hide_border=true" alt="Portfolio Optimization"/>
-        </a>
-        <p><strong>Python, QAOA</strong> - Quantum approach to solving high-dimensional portfolio optimization problems</p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">QAOA Facility Location</h3>
-      <div align="center">
-        <a href="https://github.com/sankalpjoe/Delhi-Facility-Location-Optimization-using-Quantum-QAOA" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=Delhi-Facility-Location-Optimization-using-Quantum-QAOA&theme=tokyonight&hide_border=true" alt="QAOA Delhi"/>
-        </a>
-        <p><strong>Python, QAOA</strong> - Applying Quantum Approximate Optimization Algorithm on Delhi facility location database</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">CycleGAN-Q (Hybrid Quantum)</h3>
-      <div align="center">
-        <a href="https://github.com/sankalpjoe/CYCLEGAN-Q" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=CYCLEGAN-Q&theme=tokyonight&hide_border=true" alt="CycleGAN-Q"/>
-        </a>
-        <p><strong>Python, GANs, Quantum</strong> - CycleGAN with a hybrid quantum-classical generator architecture</p>
-      </div>
+      <a href="https://github.com/sankalpjoe/High-Dimensional-Portfolio-Optimization-A-Quantum-Approach">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=High-Dimensional-Portfolio-Optimization-A-Quantum-Approach&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&border_radius=12" width="100%"/>
+      </a>
+      <br/>
+      <p>
+        <img src="https://img.shields.io/badge/QAOA-7c3aed?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Optimization-f59e0b?style=flat-square"/>
+      </p>
+      <p>Quantum approach to solving high-dimensional portfolio optimization at scale.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">Adverse Weather Generation</h3>
-      <div align="center">
-        <a href="https://github.com/sankalpjoe/Adverse-Weather-Creation-Using-CycleGAN" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=Adverse-Weather-Creation-Using-CycleGAN&theme=tokyonight&hide_border=true" alt="Weather CycleGAN"/>
-        </a>
-        <p><strong>Python, Computer Vision</strong> - Creating realistic adverse weather conditions using CycleGAN for autonomous systems</p>
-      </div>
+      <a href="https://github.com/sankalpjoe/Delhi-Facility-Location-Optimization-using-Quantum-QAOA">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=Delhi-Facility-Location-Optimization-using-Quantum-QAOA&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&border_radius=12" width="100%"/>
+      </a>
+      <br/>
+      <p>
+        <img src="https://img.shields.io/badge/QAOA-7c3aed?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Urban%20Planning-06b6d4?style=flat-square"/>
+      </p>
+      <p>QAOA applied to real-world Delhi facility location database for urban infrastructure planning.</p>
     </td>
     <td width="50%">
-      <h3 align="center">QCBM Indian Markets</h3>
-      <div align="center">
-        <a href="https://github.com/sankalpjoe/qcbm-indian" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=qcbm-indian&theme=tokyonight&hide_border=true" alt="QCBM Indian"/>
-        </a>
-        <p><strong>Jupyter, Finance</strong> - Quantum Circuit Born Machines using BSE indices for Indian stock market prediction</p>
-      </div>
+      <a href="https://github.com/sankalpjoe/CYCLEGAN-Q">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=CYCLEGAN-Q&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&border_radius=12" width="100%"/>
+      </a>
+      <br/>
+      <p>
+        <img src="https://img.shields.io/badge/CycleGAN-ec4899?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Hybrid%20Quantum-7c3aed?style=flat-square"/>
+      </p>
+      <p>CycleGAN with a hybrid quantum-classical generator — bridging CV and quantum ML.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/sankalpjoe/Adverse-Weather-Creation-Using-CycleGAN">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=Adverse-Weather-Creation-Using-CycleGAN&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&border_radius=12" width="100%"/>
+      </a>
+      <br/>
+      <p>
+        <img src="https://img.shields.io/badge/Computer%20Vision-3b82f6?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Autonomous%20Systems-10b981?style=flat-square"/>
+      </p>
+      <p>Generating realistic adverse weather conditions using CycleGAN for autonomous vehicle testing.</p>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/sankalpjoe/qcbm-indian">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sankalpjoe&repo=qcbm-indian&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&border_radius=12" width="100%"/>
+      </a>
+      <br/>
+      <p>
+        <img src="https://img.shields.io/badge/QCBM-6929c4?style=flat-square"/>
+        <img src="https://img.shields.io/badge/BSE%20Indices-f97316?style=flat-square"/>
+      </p>
+      <p>Quantum Circuit Born Machines trained on BSE indices for Indian stock market prediction.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-##  GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sankalpjoe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sankalpjoe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sankalpjoe&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sankalpjoe&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&ring_color=7c3aed&border_radius=12" height="175"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sankalpjoe&layout=compact&theme=midnight-purple&hide_border=true&langs_count=8&bg_color=0d0d1a&title_color=a78bfa&text_color=c4b5fd&border_radius=12" height="175"/>
 </p>
 
-##  GitHub Trophies
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sankalpjoe&theme=darkhub&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sankalpjoe&theme=midnight-purple&hide_border=true&background=0d0d1a&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c4b5fd&dates=6b7280&border_radius=12" width="60%"/>
 </p>
 
 ---
 
-## 
+## 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sankalpjoe&theme=darkhub&no-frame=true&margin-w=8&row=1&column=7"/>
+</p>
+
+---
+
+## 🐍 Contribution Graph
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake.svg"/>
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/sankalpjoe/sankalpjoe/output/dist/github-contribution-grid-snake.svg"/>
   </picture>
 </p>
 
-
-
-
-##  Research Interests
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&height=80&section=header&text=Quantum%20Computing%20and%20Machine%20Learning&fontSize=25&fontAlign=50&fontAlignY=50" alt="Research Focus"/>
-</p>
-
-###  Areas of Focus
-
-**Quantum Algorithms**
-- QAOA (Quantum Approximate Optimization Algorithm)
-- VQE (Variational Quantum Eigensolver)
-- QCBM (Quantum Circuit Born Machines)
-- Quantum Annealing
-
-**Machine Learning**
-- Generative Adversarial Networks (GANs)
-- Hybrid Quantum-Classical Models
-- Generative AI
-- Computer Vision
-
-**Applications**
-- Financial Technology (Options Pricing, Portfolio Optimization)
-- Image-to-Image Translation
-- Optimization Problems
-- Synthetic Data Generation
-
-
-
 ---
 
-##  Activity Graph
+## 📈 Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sankalpjoe&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sankalpjoe&theme=react-dark&hide_border=true&bg_color=0d0d1a&color=a78bfa&line=7c3aed&point=c4b5fd&area=true&area_color=7c3aed" width="95%"/>
 </p>
 
 ---
 
-
-
-## Lets Connect 
-
-<p align="center">
-  Connect with me
-</p>
+## 📬 Let's Connect
 
 <p align="center">
   <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+  &nbsp;
   <a href="mailto:sankalpj17@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Drop%20a%20line-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
+  &nbsp;
   <a href="YOUR_TWITTER_URL">
-    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Twitter-Follow%20along-1d9bf0?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
 </p>
 
----
-
-<!-- Footer Animation -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=35&fontAlignY=70&desc=&descAlignY=88&descSize=14" alt="Thanks for visiting banner"/>
-</p>
+<br/>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sankalpjoe&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontAlignY=70&fontColor=a78bfa"/>
 </p>
