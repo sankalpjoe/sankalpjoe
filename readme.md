@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Sankalp%20Joshi&animation=fadeIn&type=waving&color=0:0f0c29,50:302b63,100:24243e&height=160&fontColor=ffffff&fontSize=48&fontAlignY=65&fontFamily=Astralaga&desc=Quantum%20Computing%20%E2%86%97%20AI%20%2F%20ML%20%E2%86%97%20Generative%20Models&descSize=17&descAlignY=83&descColor=aaaaff"/>
+  <img src="https://capsule-render.vercel.app/api?text=Sankalp%20Joshi&animation=fadeIn&type=waving&color=0:0f0c29,50:302b63,100:24243e&height=160&fontColor=ffffff&fontSize=48&fontAlignY=65&desc=Quantum%20Computing%20%E2%86%97%20AI%20%2F%20ML%20%E2%86%97%20Generative%20Models&descSize=17&descAlignY=83&descColor=aaaaff"/>
 </p>
 
 <!-- Badges -->
@@ -226,5 +226,5 @@ sankalp = {
 <br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontAlignY=70&fontColor=a78bfa&fontFamily=Astralaga"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontAlignY=70&fontColor=a78bfa"/>
 </p>
