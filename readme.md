@@ -13,6 +13,19 @@
   <img src="https://komarev.com/ghpvc/?username=sankalpjoe&color=7c3aed&style=flat-square&label=Profile+Views"/>
 </p>
 
+<br/>
+
+<!-- Status row -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Actively%20Researching-7c3aed?style=flat-square&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-Quantum%20%2B%20ML-a78bfa?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Open%20To-Collaborations-22c55e?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-India-f59e0b?style=flat-square&logo=googlemaps&logoColor=white"/>
+</p>
+
 ---
 
 ## `> whoami`
@@ -20,6 +33,11 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=false&vCenter=true&multiline=true&repeat=false&width=620&height=130&lines=role++++%3A+Quantum+Computing+Researcher+%26+AI%2FML+Engineer;building+%3A+QCBM+%7C+Hybrid+Quantum-Classical+Models;domains+%3A+QAOA+%7C+Portfolio+Optimization+%7C+Generative+CV;stack+++%3A+Python+%7C+Qiskit+%7C+TensorFlow+%7C+PyTorch;location+%3A+India+%7C+open+to+research+collaborations" alt="whoami"/>
 
 ---
+
+<!-- Divider banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:302b63&height=2&section=header"/>
+</p>
 
 ## Tech Stack
 
@@ -85,6 +103,35 @@
 | [**CycleGAN-Q (Hybrid Quantum)**](https://github.com/sankalpjoe/CYCLEGAN-Q) | ![PyTorch](https://img.shields.io/badge/-PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white) ![Qiskit](https://img.shields.io/badge/-Qiskit-6929c4?style=flat-square) | CycleGAN with a hybrid quantum-classical generator architecture |
 | [**Adverse Weather Generation**](https://github.com/sankalpjoe/Adverse-Weather-Creation-Using-CycleGAN) | ![PyTorch](https://img.shields.io/badge/-PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white) ![CV](https://img.shields.io/badge/-Computer%20Vision-3b82f6?style=flat-square) | Realistic adverse weather synthesis using CycleGAN for autonomous vehicle testing |
 | [**QCBM Indian Markets**](https://github.com/sankalpjoe/qcbm-indian) | ![Jupyter](https://img.shields.io/badge/-Jupyter-f37626?style=flat-square&logo=jupyter&logoColor=white) ![Finance](https://img.shields.io/badge/-Finance-22c55e?style=flat-square) | Quantum Circuit Born Machines on BSE indices for Indian stock market prediction |
+
+---
+
+<!-- Metrics snapshot using static shields -->
+## At a Glance
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Repos-6%2B%20Public-7c3aed?style=for-the-badge&logo=github&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Primary%20Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Quantum%20Framework-Qiskit-6929c4?style=for-the-badge&logo=IBM&logoColor=white"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Research%20Domain-Quantum%20ML-a78bfa?style=for-the-badge"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Applications-Finance%20%7C%20CV%20%7C%20Optimization-0f0c29?style=for-the-badge"/>
+</p>
+
+---
+
+## Currently Exploring
+
+```
+[ Quantum Error Mitigation ]  ─────────────────────────  ongoing
+[ Quantum Transformers      ]  ───────────────────────    ongoing  
+[ Diffusion Models          ]  ──────────────────         learning
+[ Indian Market QML         ]  ─────────────────────────  active
+```
 
 ---
 
