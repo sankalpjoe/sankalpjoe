@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-09-20T21:20:16+00:00",
+  "fetched_at": "2026-09-20T21:42:30+00:00",
   "source": "https://api.github.com/users/sankalpjoe/repos",
   "username": "sankalpjoe",
   "followers": 1,
@@ -172,11 +172,11 @@
       "description": null,
       "fork": false,
       "archived": false,
-      "language": null,
+      "language": "Python",
       "size": 61,
       "stargazers_count": 0,
       "forks_count": 0,
-      "pushed_at": "2026-09-20T04:21:27Z",
+      "pushed_at": "2026-09-20T21:42:19Z",
       "default_branch": "main",
       "topics": [],
       "languages": {}
