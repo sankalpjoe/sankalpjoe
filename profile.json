@@ -1,0 +1,91 @@
+{
+  "name": "Sankalp Joshi",
+  "username": "sankalpjoe",
+  "projects": [
+    {
+      "repo": "dashboard",
+      "title": "DASHINT",
+      "subtitle": "Turning information into situational awareness.",
+      "description": "An India crisis monitor combining news, civic signals, weather and LLM analysis across five cities.",
+      "tags": ["OSINT", "JavaScript / TypeScript", "LLM pipelines"],
+      "category": "APPLIED AI",
+      "art": "radar",
+      "color": "#c5f58a"
+    },
+    {
+      "repo": "qcbm-indian",
+      "title": "Quantum markets",
+      "subtitle": "Learning the shape of financial uncertainty.",
+      "description": "A Quantum Circuit Born Machine for synthetic BSE100 data, trained with a genetic algorithm.",
+      "tags": ["Amazon Braket", "QCBM", "Financial data"],
+      "category": "QUANTUM GENERATIVE MODELS",
+      "art": "wave",
+      "color": "#b9a4ff"
+    },
+    {
+      "repo": "CYCLEGAN-Q",
+      "title": "CycleGAN-Q",
+      "subtitle": "A quantum layer in the generative loop.",
+      "description": "Hybrid quantum and classical generators for unpaired day-to-night image translation.",
+      "tags": ["Qiskit", "PyTorch", "Image translation"],
+      "category": "HYBRID MACHINE LEARNING",
+      "art": "portal",
+      "color": "#91c7ff"
+    },
+    {
+      "repo": "High-Dimensional-Portfolio-Optimization-A-Quantum-Approach",
+      "title": "Portfolio, reimagined",
+      "subtitle": "A quantum approach to a larger asset space.",
+      "description": "Hierarchical asset clustering meets quantum optimization, with risk measures and classical comparisons.",
+      "tags": ["Python", "Qiskit", "Optimization"],
+      "category": "QUANTUM FINANCE",
+      "art": "mesh",
+      "color": "#e7ba83"
+    },
+    {
+      "repo": "Delhi-Facility-Location-Optimization-using-Quantum-QAOA",
+      "title": "Where should a city build?",
+      "subtitle": "Quantum optimization, at the scale of a city.",
+      "description": "Facility placement on a synthetic Delhi dataset, comparing QAOA in Qiskit and PennyLane.",
+      "tags": ["QAOA", "PennyLane", "Synthetic urban data"],
+      "category": "QUANTUM OPTIMIZATION",
+      "art": "network",
+      "color": "#c5f58a"
+    },
+    {
+      "repo": "Adverse-Weather-Creation-Using-CycleGAN",
+      "title": "Beyond daylight",
+      "subtitle": "Teaching perception to see a different world.",
+      "description": "Unpaired CycleGAN translation for day, night and adverse conditions in driving and aviation imagery.",
+      "tags": ["PyTorch", "CycleGAN", "Computer vision"],
+      "category": "GENERATIVE VISION",
+      "art": "horizon",
+      "color": "#b9a4ff"
+    },
+    {
+      "repo": "doc-toolkit",
+      "title": "Documents, untangled",
+      "subtitle": "Small tools. Less friction.",
+      "description": "A Streamlit workspace for PDF merging, compression and conversion between document formats.",
+      "tags": ["Python", "Streamlit", "PDF tools"],
+      "category": "USEFUL SOFTWARE",
+      "art": "docs",
+      "color": "#91c7ff"
+    },
+    {
+      "repo": "Youtube-Summarizer",
+      "title": "Less watching. More signal.",
+      "subtitle": "From a video transcript to the useful parts.",
+      "description": "BART summaries, topic extraction and sentiment charts, together in a Streamlit interface.",
+      "tags": ["Transformers", "BART", "Streamlit"],
+      "category": "LANGUAGE & AUTOMATION",
+      "art": "signal",
+      "color": "#e7ba83"
+    }
+  ],
+  "catalogue_descriptions": {
+    "QCBM-Options-Pricing": "Synthetic financial data research; options-pricing extension described as future work.",
+    "billyzer": "Bill-analysis idea; the public repository currently has no content.",
+    "sankalpjoe": "This profile, its original artwork and the public-data refresh workflow."
+  }
+}
