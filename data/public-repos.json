@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-09-20T21:50:42+00:00",
+  "fetched_at": "2026-09-20T22:03:02+00:00",
   "source": "https://api.github.com/users/sankalpjoe/repos",
   "username": "sankalpjoe",
   "followers": 1,
@@ -122,16 +122,20 @@
       "description": "PQC Approaches",
       "fork": false,
       "archived": false,
-      "language": null,
+      "language": "HTML",
       "size": 0,
       "stargazers_count": 0,
       "forks_count": 0,
-      "pushed_at": "2026-09-20T21:47:02Z",
+      "pushed_at": "2026-09-20T21:58:35Z",
       "default_branch": "main",
       "topics": [],
       "private": false,
       "visibility": "public",
-      "languages": {}
+      "languages": {
+        "HTML": 4667586,
+        "Python": 540314,
+        "TeX": 59414
+      }
     },
     {
       "name": "qcbm-indian",
@@ -179,16 +183,19 @@
       "description": "Learning Modules",
       "fork": false,
       "archived": false,
-      "language": null,
+      "language": "Jupyter Notebook",
       "size": 0,
       "stargazers_count": 0,
       "forks_count": 0,
-      "pushed_at": "2026-09-20T21:46:47Z",
+      "pushed_at": "2026-09-20T21:58:49Z",
       "default_branch": "main",
       "topics": [],
       "private": false,
       "visibility": "public",
-      "languages": {}
+      "languages": {
+        "Jupyter Notebook": 3519727,
+        "Python": 181997
+      }
     },
     {
       "name": "sankalpjoe",
