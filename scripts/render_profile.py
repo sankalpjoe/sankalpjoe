@@ -49,9 +49,13 @@ def svg(width, height, body, title, description=""):
             '<stop offset=".5" stop-color="#9bc5ec"/><stop offset="1" stop-color="#b9a4ff"/></linearGradient>'
             '</defs><style>.orbit{transform-box:fill-box;transform-origin:center;animation:turn 60s linear infinite}'
             '.pulse{animation:breathe 5s ease-in-out infinite}'
+            '.cipher{stroke-dasharray:6 10;animation:cipher 5s linear infinite}'
+            '.travel{animation:travel 7s linear infinite}'
             '@keyframes turn{to{transform:rotate(360deg)}}'
             '@keyframes breathe{50%{opacity:.35}}'
-            '@media(prefers-reduced-motion:reduce){.orbit,.pulse{animation:none}}</style>'
+            '@keyframes cipher{to{stroke-dashoffset:-64}}'
+            '@keyframes travel{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(260px);opacity:0}}'
+            '@media(prefers-reduced-motion:reduce){.orbit,.pulse,.cipher,.travel{animation:none}}</style>'
             f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="20" fill="{BG}" stroke="{LINE}"/>'
             + body + '</svg>\n')
 
@@ -148,7 +152,36 @@ def metrics(data, mobile=False):
 def artwork(kind, color):
     # Each mini illustration uses a 320 x 190 coordinate space.
     b = circle(168, 97, 140, "url(#glow)")
-    if kind == "radar":
+    if kind == "lattice":
+        def lattice_point(a, c):
+            return 160+(a-c)*21, 20+(a+c)*11
+        for i in range(7):
+            b += path([lattice_point(i,j) for j in range(7)],color,.25)
+            b += path([lattice_point(j,i) for j in range(7)],color,.25)
+        for a in range(7):
+            for c in range(7):
+                b += circle(*lattice_point(a,c),1.8,color,'opacity=".4"')
+        b += '<g class="cipher">'+path([lattice_point(0,2),lattice_point(6,2),lattice_point(6,5),lattice_point(1,5)],color,.9,2)+'</g>'
+        b += circle(160,83,32,PANEL,f'stroke="{color}" stroke-opacity=".7"')
+        b += f'<path d="M149 81 V73 A11 11 0 0 1 171 73 V81" fill="none" stroke="{color}" stroke-width="2"/>'
+        b += f'<rect x="145" y="80" width="30" height="23" rx="4" fill="{BG}" stroke="{color}"/>'
+        b += circle(160,89,3,color,'class="pulse"')+line(160,91,160,97,color)
+        b += text(18,181,"KEM / HYBRID / EXPERIMENTS",10,MUTED,mono=True)
+    elif kind == "circuit":
+        for y in (40,90,140):
+            b += text(6,y+4,"|0⟩",11,MUTED,mono=True)+line(32,y,300,y,color,'opacity=".4"')
+        for x,y,label in ((60,40,"H"),(60,90,"Ry"),(60,140,"H"),(207,40,"Rz"),(207,90,"H"),(207,140,"Ry")):
+            b += f'<rect x="{x-15}" y="{y-12}" width="30" height="24" rx="4" fill="{PANEL}" stroke="{color}"/>'
+            b += text(x,y+4,label,12,color,mono=True,extra='text-anchor="middle"')
+        b += line(134,40,134,90,color)+circle(134,40,4,color)+circle(134,90,9,BG,f'stroke="{color}"')
+        b += line(128,90,140,90,color)+line(134,84,134,96,color)
+        b += line(164,90,164,140,color)+circle(164,90,4,color)+circle(164,140,9,BG,f'stroke="{color}"')
+        b += line(158,140,170,140,color)+line(164,134,164,146,color)
+        for i,y in enumerate((40,90,140)):
+            b += circle(33,y,3,MINT,f'class="travel" style="animation-delay:-{i*2}s"')
+            b += f'<path d="M267 {y+6} A9 9 0 0 1 285 {y+6} M276 {y+6} L283 {y-5}" stroke="{color}" fill="none"/>'
+        b += text(19,181,"ENCODE → EVOLVE → SAMPLE",10,MUTED,mono=True)
+    elif kind == "radar":
         for r in (28, 55, 82):
             b += circle(167, 96, r, "none", f'stroke="{color}" stroke-opacity=".27"')
         b += line(68, 96, 266, 96) + line(167, 1, 167, 189)

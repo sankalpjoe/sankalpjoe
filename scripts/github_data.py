@@ -46,12 +46,22 @@ def collect():
               "stargazers_count", "forks_count", "pushed_at", "default_branch", "topics")
     cleaned = []
     for repo in repos:
-        if repo.get("private") or repo["owner"]["login"].lower() != USER.lower():
+        if (repo.get("private") is not False
+                or repo.get("visibility", "public") != "public"
+                or repo["owner"]["login"].lower() != USER.lower()):
             continue
         item = {field: repo.get(field) for field in fields}
+        item.update(private=False, visibility="public")
         # Exclude the profile itself from language totals: generated art isn't project code.
-        item["languages"] = (request(f"/repos/{USER}/{quote(repo['name'])}/languages")
-                             if repo["name"].lower() != USER.lower() else {})
+        try:
+            item["languages"] = (request(f"/repos/{USER}/{quote(repo['name'])}/languages")
+                                 if repo["name"].lower() != USER.lower() else {})
+        except HTTPError as error:
+            # Visibility can change after the listing. An inaccessible repo must
+            # not keep its old card on the homepage by failing the whole refresh.
+            if error.code == 404:
+                continue
+            raise
         cleaned.append(item)
     cleaned.sort(key=lambda r: r["name"].casefold())
     return {"schema_version": 1, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

@@ -2,6 +2,7 @@ import copy
 import json
 import re
 import sys
+import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -115,6 +116,106 @@ class ProfileTests(unittest.TestCase):
     def test_api_failure_is_not_converted_into_empty_data(self):
         with patch.object(github_data,"urlopen",side_effect=HTTPError("url",403,"rate limit",{},None)):
             with self.assertRaises(HTTPError): github_data.request("/users/sankalpjoe")
+
+    def test_non_public_or_unknown_visibility_is_never_collected(self):
+        repos=[{"name":name,"owner":{"login":"sankalpjoe"},**flags}
+               for name,flags in [
+                   ("public-one",{"private":False,"visibility":"public"}),
+                   ("private-one",{"private":True,"visibility":"private"}),
+                   ("internal-one",{"private":False,"visibility":"internal"}),
+                   ("missing-visibility-flags",{}),
+               ]]
+        def api(path):
+            if path=="/users/sankalpjoe": return {"followers":1}
+            if "/repos?" in path: return repos
+            if path=="/repos/sankalpjoe/public-one/languages": return {"Python":10}
+            raise AssertionError("Should not request languages for a non-public repo: "+path)
+        with patch.object(github_data,"request",side_effect=api):
+            data=github_data.collect()
+        self.assertEqual([r["name"] for r in data["repos"]],["public-one"])
+        self.assertEqual(data["repos"][0]["visibility"],"public")
+
+    def test_becoming_inaccessible_mid_refresh_drops_only_that_repo(self):
+        repos=[{"name":name,"owner":{"login":"sankalpjoe"},"private":False}
+               for name in ("now-private","still-public")]
+        failure_code=404
+        def api(path):
+            if path=="/users/sankalpjoe": return {"followers":1}
+            if "/repos?" in path: return repos
+            if path=="/repos/sankalpjoe/now-private/languages":
+                raise HTTPError(path,failure_code,"Unavailable",{},None)
+            if path=="/repos/sankalpjoe/still-public/languages": return {"Python":10}
+            raise AssertionError(path)
+        with patch.object(github_data,"request",side_effect=api):
+            data=github_data.collect()
+        self.assertEqual([r["name"] for r in data["repos"]],["still-public"])
+        failure_code=503
+        with patch.object(github_data,"request",side_effect=api):
+            with self.assertRaises(HTTPError): github_data.collect()
+
+    def test_private_snapshot_is_rejected(self):
+        for flags in ({"private":True},{"visibility":"private"},{"visibility":"internal"}):
+            data=copy.deepcopy(self.data)
+            data["repos"][0].update(flags)
+            with self.subTest(flags=flags),self.assertRaises(ValueError):
+                refresh.validate(data)
+
+    def test_new_public_projects_get_both_animated_panels(self):
+        data=copy.deepcopy(self.data)
+        for name in ("PQC-","Quantum-Learning"):
+            repo=next((r for r in data["repos"] if r["name"]==name),None)
+            if repo is None:
+                repo=copy.deepcopy(data["repos"][0])
+                repo.update(name=name,html_url=f"https://github.com/sankalpjoe/{name}")
+                data["repos"].append(repo)
+            repo.update(size=100,private=False,visibility="public",archived=False)
+        outputs=render_profile.render(data)
+        for name,motion in (("PQC-","cipher"),("Quantum-Learning","travel")):
+            self.assertIn(f"https://github.com/sankalpjoe/{name}",outputs["readme.md"])
+            for suffix in ("","-mobile"):
+                asset=outputs[f"assets/project-{name}{suffix}.svg"]
+                ET.fromstring(asset)
+                self.assertIn(f'class="{motion}"',asset)
+                self.assertIn(f'@keyframes {motion}',asset)
+                self.assertIn("prefers-reduced-motion",asset)
+
+    def test_visibility_transition_cleans_homepage_snapshot_and_both_cards(self):
+        public=copy.deepcopy(self.data)
+        featured=copy.deepcopy(public["repos"][0])
+        featured.update(name="dashboard",html_url="https://github.com/sankalpjoe/dashboard",
+                        private=False,visibility="public",size=100,archived=False,fork=False)
+        public["repos"]=[featured]
+        private=copy.deepcopy(public)
+        private["repos"]=[]  # The public endpoint stops returning the private repo.
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            with patch.object(refresh,"ROOT",root),patch.object(sys,"argv",["refresh.py"]):
+                with patch.object(refresh,"collect",return_value=public): refresh.main()
+                cards=[root/f"assets/project-dashboard{suffix}.svg" for suffix in ("","-mobile")]
+                self.assertTrue(all(p.exists() for p in cards))
+                custom=root/"assets/project-custom.svg"
+                custom.write_text("User-created art",encoding="utf-8")
+
+                # A failed request must not delete any currently displayed artwork.
+                before={p.relative_to(root):p.read_bytes() for p in root.rglob("*") if p.is_file()}
+                with patch.object(refresh,"collect",side_effect=RuntimeError("Unavailable")):
+                    with self.assertRaises(RuntimeError): refresh.main()
+                self.assertEqual(before,{p.relative_to(root):p.read_bytes() for p in root.rglob("*") if p.is_file()})
+
+                with patch.object(refresh,"collect",return_value=private): refresh.main()
+                readme=(root/"readme.md").read_text(encoding="utf-8")
+                self.assertNotIn("https://github.com/sankalpjoe/dashboard",readme)
+                self.assertNotIn("project-dashboard",readme)
+                saved=json.loads((root/"data/public-repos.json").read_text(encoding="utf-8"))
+                self.assertEqual(saved["repos"],[])
+                self.assertFalse(any(p.exists() for p in cards))
+                self.assertTrue((root/"assets/hero.svg").exists())
+                self.assertEqual(custom.read_text(encoding="utf-8"),"User-created art")
+
+                # Returning to public restores the curated card without a config edit.
+                with patch.object(refresh,"collect",return_value=public): refresh.main()
+                self.assertIn("https://github.com/sankalpjoe/dashboard",(root/"readme.md").read_text(encoding="utf-8"))
+                self.assertTrue(all(p.exists() for p in cards))
 
 
 if __name__=="__main__":

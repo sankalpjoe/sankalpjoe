@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "fetched_at": "2026-09-20T21:42:30+00:00",
+  "fetched_at": "2026-09-20T21:50:42+00:00",
   "source": "https://api.github.com/users/sankalpjoe/repos",
   "username": "sankalpjoe",
   "followers": 1,
@@ -18,6 +18,8 @@
       "pushed_at": "2025-03-17T18:29:51Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Python": 20709
       }
@@ -35,6 +37,8 @@
       "pushed_at": "2026-03-10T07:19:58Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {}
     },
     {
@@ -50,33 +54,9 @@
       "pushed_at": "2025-08-28T10:43:16Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {}
-    },
-    {
-      "name": "dashboard",
-      "html_url": "https://github.com/sankalpjoe/dashboard",
-      "description": "int checker",
-      "fork": false,
-      "archived": false,
-      "language": "JavaScript",
-      "size": 22624,
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "pushed_at": "2026-07-10T05:51:50Z",
-      "default_branch": "main",
-      "topics": [],
-      "languages": {
-        "JavaScript": 644219,
-        "TypeScript": 519155,
-        "Rust": 52559,
-        "Python": 10084,
-        "Shell": 5874,
-        "CSS": 5222,
-        "HTML": 3132,
-        "Makefile": 2416,
-        "Batchfile": 1531,
-        "NSIS": 1060
-      }
     },
     {
       "name": "Delhi-Facility-Location-Optimization-using-Quantum-QAOA",
@@ -91,6 +71,8 @@
       "pushed_at": "2025-03-17T18:31:42Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Python": 72437
       }
@@ -108,6 +90,8 @@
       "pushed_at": "2026-01-01T19:51:30Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Python": 12873,
         "Batchfile": 676
@@ -126,9 +110,28 @@
       "pushed_at": "2025-03-17T20:04:24Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Python": 172015
       }
+    },
+    {
+      "name": "PQC-",
+      "html_url": "https://github.com/sankalpjoe/PQC-",
+      "description": "PQC Approaches",
+      "fork": false,
+      "archived": false,
+      "language": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-09-20T21:47:02Z",
+      "default_branch": "main",
+      "topics": [],
+      "private": false,
+      "visibility": "public",
+      "languages": {}
     },
     {
       "name": "qcbm-indian",
@@ -143,6 +146,8 @@
       "pushed_at": "2026-04-23T07:49:23Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Jupyter Notebook": 1324797,
         "Python": 27406
@@ -161,10 +166,29 @@
       "pushed_at": "2024-08-01T09:35:21Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Jupyter Notebook": 1324797,
         "Python": 27406
       }
+    },
+    {
+      "name": "Quantum-Learning",
+      "html_url": "https://github.com/sankalpjoe/Quantum-Learning",
+      "description": "Learning Modules",
+      "fork": false,
+      "archived": false,
+      "language": null,
+      "size": 0,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-09-20T21:46:47Z",
+      "default_branch": "main",
+      "topics": [],
+      "private": false,
+      "visibility": "public",
+      "languages": {}
     },
     {
       "name": "sankalpjoe",
@@ -176,9 +200,11 @@
       "size": 61,
       "stargazers_count": 0,
       "forks_count": 0,
-      "pushed_at": "2026-09-20T21:42:19Z",
+      "pushed_at": "2026-09-20T21:42:34Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {}
     },
     {
@@ -194,6 +220,8 @@
       "pushed_at": "2025-03-18T12:27:45Z",
       "default_branch": "main",
       "topics": [],
+      "private": false,
+      "visibility": "public",
       "languages": {
         "Python": 17697
       }

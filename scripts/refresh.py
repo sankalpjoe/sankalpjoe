@@ -14,6 +14,8 @@ def validate(data):
         raise ValueError("Unexpected snapshot schema or account")
     names=set()
     for repo in data["repos"]:
+        if repo.get("private", False) or repo.get("visibility", "public") != "public":
+            raise ValueError("Snapshot contains a non-public repository")
         name=repo["name"]
         if name in names or not name or any(c not in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_." for c in name):
             raise ValueError("Invalid or duplicate repository name")
@@ -28,8 +30,14 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--offline",action="store_true")
     args=parser.parse_args()
+    snapshot=ROOT/"data/public-repos.json"
+    previous=json.loads(snapshot.read_text(encoding="utf-8")) if snapshot.exists() else None
+    if previous is not None:
+        validate(previous)
     # Finish all requests and rendering before replacing any good assets.
-    data=json.loads((ROOT/"data/public-repos.json").read_text(encoding="utf-8")) if args.offline else collect()
+    if args.offline and previous is None:
+        raise ValueError("Offline rendering requires an existing snapshot")
+    data=previous if args.offline else collect()
     validate(data)
     outputs=render(data)
     outputs["data/public-repos.json"]=json.dumps(data,indent=2)+"\n"
@@ -39,7 +47,19 @@ def main():
         temp=target.with_name(target.name+".tmp")
         temp.write_text(content,encoding="utf-8",newline="\n")
         os.replace(temp,target)
+    # Remove only the exact card filenames belonging to previously known repos.
+    # Never sweep the asset folder: unrelated or hand-authored art is preserved.
+    removed=0
+    for repo in previous["repos"] if previous else []:
+        for suffix in ("", "-mobile"):
+            name=f"assets/project-{repo['name']}{suffix}.svg"
+            target=ROOT/name
+            if name not in outputs and target.is_file():
+                target.unlink()
+                removed+=1
     print(f"Rendered {len(outputs)-2} SVGs and {len(data['repos'])} public repository entries.")
+    if removed:
+        print(f"Removed {removed} obsolete project graphics.")
 
 
 if __name__=="__main__":

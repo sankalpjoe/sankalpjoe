@@ -3,6 +3,26 @@
   "username": "sankalpjoe",
   "projects": [
     {
+      "repo": "PQC-",
+      "title": "Post-quantum laboratory",
+      "subtitle": "Exploring cryptography beyond the classical.",
+      "description": "A Python research suite for lattice, code-based, multivariate and hybrid cryptography, with a shared provider interface.",
+      "tags": ["Python", "PQC", "Research prototypes"],
+      "category": "POST-QUANTUM CRYPTOGRAPHY",
+      "art": "lattice",
+      "color": "#c5f58a"
+    },
+    {
+      "repo": "Quantum-Learning",
+      "title": "Quantum finance lab",
+      "subtitle": "Circuits for financial questions.",
+      "description": "Quantum research code and notebooks exploring option pricing, risk modelling, portfolio optimization and machine learning.",
+      "tags": ["Qiskit", "PennyLane", "Quantum finance"],
+      "category": "QUANTUM ALGORITHMS & LEARNING",
+      "art": "circuit",
+      "color": "#b9a4ff"
+    },
+    {
       "repo": "dashboard",
       "title": "DASHINT",
       "subtitle": "Turning information into situational awareness.",

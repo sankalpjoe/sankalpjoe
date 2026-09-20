@@ -2,13 +2,14 @@ name: Refresh profile
 
 on:
   schedule:
-    - cron: '23 4 * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'profile.json'
       - 'scripts/**'
+      - 'tests/**'
       - '.github/workflows/refresh-profile.yml'
 
 permissions:
@@ -42,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add readme.md assets data/public-repos.json
+          git add -A -- readme.md assets data/public-repos.json
           if git diff --cached --quiet; then
             exit 0
           fi
