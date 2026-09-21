@@ -18,7 +18,7 @@ I explore the overlap between **quantum computing**, **machine learning**, and s
   <img src="assets/signal.svg" width="100%" alt="Public repository, project, star and archive counts from GitHub. See the full repository index below.">
 </picture>
 
-<sub>Public repository data last synced: 21 September 2026 at 15:48 UTC. <a href="https://github.com/sankalpjoe?tab=repositories">See the live repository list</a>.</sub>
+<sub>Public repository data last synced: 21 September 2026 at 16:35 UTC. <a href="https://github.com/sankalpjoe?tab=repositories">See the live repository list</a>.</sub>
 
 ## Selected work
 
@@ -94,7 +94,7 @@ These panels follow the public repository list automatically. Empty and archived
 <a href="https://github.com/sankalpjoe/qaoa-grid">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/project-qaoa-grid-mobile.svg">
-  <img src="assets/project-qaoa-grid.svg" width="100%" alt="qaoa-grid — No public files yet. This card will update when content is pushed.">
+  <img src="assets/project-qaoa-grid.svg" width="100%" alt="qaoa-grid — Explore the source and documentation on GitHub.">
 </picture>
 </a>
 
@@ -134,14 +134,14 @@ Every public repository is listed here, including archived work and repositories
 | <a href="https://github.com/sankalpjoe/doc-toolkit">doc-toolkit</a> | A Streamlit workspace for PDF merging, compression and conversion between document formats. | Public |
 | <a href="https://github.com/sankalpjoe/High-Dimensional-Portfolio-Optimization-A-Quantum-Approach">High-Dimensional-Portfolio-Optimization-A-Quantum-Approach</a> | Hierarchical asset clustering meets quantum optimization, with risk measures and classical comparisons. | Public |
 | <a href="https://github.com/sankalpjoe/PQC">PQC</a> | A Python research suite for lattice, code-based, multivariate and hybrid cryptography, with a shared provider interface. | Public |
-| <a href="https://github.com/sankalpjoe/qaoa-grid">qaoa-grid</a> | No content in the public repository yet. | Empty |
+| <a href="https://github.com/sankalpjoe/qaoa-grid">qaoa-grid</a> | No public description provided yet. | Public |
 | <a href="https://github.com/sankalpjoe/qcbm-indian">qcbm-indian</a> | A Quantum Circuit Born Machine for synthetic BSE100 data, trained with a genetic algorithm. | Public |
 | <a href="https://github.com/sankalpjoe/QCBM-Options-Pricing">QCBM-Options-Pricing</a> | Synthetic financial data research; options-pricing extension described as future work. | Public |
 | <a href="https://github.com/sankalpjoe/Quantum-Learning">Quantum-Learning</a> | Quantum research code and notebooks exploring option pricing, risk modelling, portfolio optimization and machine learning. | Public |
 | <a href="https://github.com/sankalpjoe/sankalpjoe">sankalpjoe</a> | This profile, its original artwork and the public-data refresh workflow. | Profile |
 | <a href="https://github.com/sankalpjoe/Youtube-Summarizer">Youtube-Summarizer</a> | BART summaries, topic extraction and sentiment charts, together in a Streamlit interface. | Public |
 
-<sub>Public GitHub snapshot: 21 September 2026 at 15:48 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
+<sub>Public GitHub snapshot: 21 September 2026 at 16:35 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
 
 <a href="https://github.com/sankalpjoe">
 <picture>
