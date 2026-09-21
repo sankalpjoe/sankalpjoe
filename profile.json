@@ -3,7 +3,7 @@
   "username": "sankalpjoe",
   "projects": [
     {
-      "repo": "PQC-",
+      "repo": "PQC",
       "title": "Post-quantum laboratory",
       "subtitle": "Exploring cryptography beyond the classical.",
       "description": "A Python research suite for lattice, code-based, multivariate and hybrid cryptography, with a shared provider interface.",

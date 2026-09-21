@@ -20,7 +20,7 @@ This updates the current generated homepage and assets; existing commit history 
 
 ### Customize the profile
 
-- `profile.json`: featured projects, copy, illustration choices and accent colors. Only public repositories present in the fetched snapshot are featured. An absent or empty repository is removed from the featured panels on refresh.
+- `profile.json`: featured projects, copy, illustration choices and accent colors. Featured cards require a public repository with content. Every other public repository receives an automatically generated panel, including clearly labelled empty and archived repositories. Rename a featured repository here when its GitHub name changes.
 - `scripts/render_profile.py`: layout, introduction, visual styling and accessible mobile artwork. SVGs have no scripts, remote fonts, external images or embedded HTML. Motion respects `prefers-reduced-motion`.
 - `data/public-repos.json`: source snapshot with its retrieval timestamp. Generated automatically.
 - `readme.md` and `assets/`: generated outputs. Change their sources to keep edits after refresh.

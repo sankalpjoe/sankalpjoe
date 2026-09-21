@@ -64,7 +64,8 @@ class ProfileTests(unittest.TestCase):
         outputs=render_profile.render(data)
         readme=outputs["readme.md"]
         self.assertNotIn("https://github.com/sankalpjoe/dashboard",readme)
-        self.assertNotIn("assets/project-doc-toolkit.svg",readme)
+        self.assertIn("assets/project-doc-toolkit.svg",readme)
+        self.assertIn("Empty",outputs["assets/project-doc-toolkit.svg"])
         self.assertIn("https://github.com/sankalpjoe/doc-toolkit",readme)
 
     def test_language_totals_exclude_archives_forks_and_profile(self):
@@ -162,7 +163,7 @@ class ProfileTests(unittest.TestCase):
 
     def test_new_public_projects_get_both_animated_panels(self):
         data=copy.deepcopy(self.data)
-        for name in ("PQC-","Quantum-Learning"):
+        for name in ("PQC","Quantum-Learning"):
             repo=next((r for r in data["repos"] if r["name"]==name),None)
             if repo is None:
                 repo=copy.deepcopy(data["repos"][0])
@@ -170,7 +171,7 @@ class ProfileTests(unittest.TestCase):
                 data["repos"].append(repo)
             repo.update(size=100,private=False,visibility="public",archived=False)
         outputs=render_profile.render(data)
-        for name,motion in (("PQC-","cipher"),("Quantum-Learning","travel")):
+        for name,motion in (("PQC","cipher"),("Quantum-Learning","travel")):
             self.assertIn(f"https://github.com/sankalpjoe/{name}",outputs["readme.md"])
             for suffix in ("","-mobile"):
                 asset=outputs[f"assets/project-{name}{suffix}.svg"]
@@ -178,6 +179,18 @@ class ProfileTests(unittest.TestCase):
                 self.assertIn(f'class="{motion}"',asset)
                 self.assertIn(f'@keyframes {motion}',asset)
                 self.assertIn("prefers-reduced-motion",asset)
+
+    def test_every_public_repo_has_a_panel_even_without_manual_configuration(self):
+        data=copy.deepcopy(self.data)
+        new=copy.deepcopy(data["repos"][0])
+        new.update(name="brand-new-repo",html_url="https://github.com/sankalpjoe/brand-new-repo",
+                   description="A fresh project",size=0,archived=False,language=None)
+        data["repos"].append(new)
+        outputs=render_profile.render(data)
+        self.assertIn("assets/project-brand-new-repo.svg",outputs["readme.md"])
+        self.assertIn("assets/project-brand-new-repo-mobile.svg",outputs["readme.md"])
+        self.assertIn("EMPTY",outputs["assets/project-brand-new-repo.svg"])
+        self.assertIn("https://github.com/sankalpjoe/brand-new-repo",outputs["readme.md"])
 
     def test_visibility_transition_cleans_homepage_snapshot_and_both_cards(self):
         public=copy.deepcopy(self.data)
