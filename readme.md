@@ -100,13 +100,14 @@ Every public repository is listed here, including archived work and repositories
 | <a href="https://github.com/sankalpjoe/doc-toolkit">doc-toolkit</a> | A Streamlit workspace for PDF merging, compression and conversion between document formats. | Public |
 | <a href="https://github.com/sankalpjoe/High-Dimensional-Portfolio-Optimization-A-Quantum-Approach">High-Dimensional-Portfolio-Optimization-A-Quantum-Approach</a> | Hierarchical asset clustering meets quantum optimization, with risk measures and classical comparisons. | Public |
 | <a href="https://github.com/sankalpjoe/PQC">PQC</a> | PQC Approaches | Public |
+| <a href="https://github.com/sankalpjoe/qaoa-grid">qaoa-grid</a> | No content in the public repository yet. | Empty |
 | <a href="https://github.com/sankalpjoe/qcbm-indian">qcbm-indian</a> | A Quantum Circuit Born Machine for synthetic BSE100 data, trained with a genetic algorithm. | Public |
 | <a href="https://github.com/sankalpjoe/Quantum-Learning">Quantum-Learning</a> | Quantum research code and notebooks exploring option pricing, risk modelling, portfolio optimization and machine learning. | Public |
 | <a href="https://github.com/sankalpjoe/sankalpjoe">sankalpjoe</a> | This profile, its original artwork and the public-data refresh workflow. | Profile |
 | <a href="https://github.com/sankalpjoe/Youtube-Summarizer">Youtube-Summarizer</a> | BART summaries, topic extraction and sentiment charts, together in a Streamlit interface. | Public |
 | <a href="https://github.com/sankalpjoe/QCBM-Options-Pricing">QCBM-Options-Pricing</a> | Synthetic financial data research; options-pricing extension described as future work. | Archived |
 
-<sub>Public GitHub snapshot: 21 September 2026 at 10:40 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
+<sub>Public GitHub snapshot: 21 September 2026 at 15:32 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
 
 <a href="https://github.com/sankalpjoe">
 <picture>
