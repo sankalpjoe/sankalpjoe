@@ -106,7 +106,7 @@ Every public repository is listed here, including archived work and repositories
 | <a href="https://github.com/sankalpjoe/Youtube-Summarizer">Youtube-Summarizer</a> | BART summaries, topic extraction and sentiment charts, together in a Streamlit interface. | Public |
 | <a href="https://github.com/sankalpjoe/QCBM-Options-Pricing">QCBM-Options-Pricing</a> | Synthetic financial data research; options-pricing extension described as future work. | Archived |
 
-<sub>Public GitHub snapshot: 21 September 2026 at 00:14 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
+<sub>Public GitHub snapshot: 21 September 2026 at 04:54 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
 
 <a href="https://github.com/sankalpjoe">
 <picture>
