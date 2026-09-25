@@ -18,7 +18,7 @@ I explore the overlap between **quantum computing**, **machine learning**, and s
   <img src="assets/signal.svg" width="100%" alt="Public repository, project, star and archive counts from GitHub. See the full repository index below.">
 </picture>
 
-<sub>Public repository data last synced: 25 September 2026 at 01:54 UTC. <a href="https://github.com/sankalpjoe?tab=repositories">See the live repository list</a>.</sub>
+<sub>Public repository data last synced: 25 September 2026 at 07:44 UTC. <a href="https://github.com/sankalpjoe?tab=repositories">See the live repository list</a>.</sub>
 
 ## Selected work
 
@@ -141,7 +141,7 @@ Every public repository is listed here, including archived work and repositories
 | <a href="https://github.com/sankalpjoe/sankalpjoe">sankalpjoe</a> | This profile, its original artwork and the public-data refresh workflow. | Profile |
 | <a href="https://github.com/sankalpjoe/Youtube-Summarizer">Youtube-Summarizer</a> | BART summaries, topic extraction and sentiment charts, together in a Streamlit interface. | Public |
 
-<sub>Public GitHub snapshot: 25 September 2026 at 01:54 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
+<sub>Public GitHub snapshot: 25 September 2026 at 07:44 UTC. [View source data](data/public-repos.json) · [Refresh workflow](https://github.com/sankalpjoe/sankalpjoe/actions/workflows/refresh-profile.yml). Project illustrations are conceptual; counts and language shares come from GitHub.</sub>
 
 <a href="https://github.com/sankalpjoe">
 <picture>
